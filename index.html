@@ -1,2 +1,119 @@
-<h1> Esse é meu site </h1>
-<h2> Eu gosto muito do meu amiguinho wilis </h2>
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+	<title> Meu site </title>
+	<meta charset="utf-8"/>
+	<style>
+	body {
+			background-image: url(fundo.png);
+			background-color: #40E0D0;
+		}
+		p {
+			text-align: justify;
+			text-indent: 50px;
+		}
+		</style>
+		<link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+</head>
+<script language="javascript"src="_javascript/funcoes.js">
+</script>
+<body>
+<div id="interface">
+	
+		<header id="cabecalho">
+	<h1 style="text-align: center;"> Este é o meu primeiro site </h1>
+	<h2 style="text-align: "> E este é o subtítulo dele </h2>
+	<figure class="fotinha">
+<center>
+		<img id="icone" src="_imagens/fotinha.png" width="90" height="90">
+	</center>
+		</figure>
+
+	<nav id="menu">
+		<h1> Menu principal</h1>
+		<ul type="disc">
+			<li onmouseover="mudaFoto('_imagens/home.jpg')" onmouseout="mudaFoto('_imagens/fotinha.png')"><a href="arquivo.html">Home</a></li>
+			<li onmouseover="mudaFoto('_imagens/especifica.png')" onmouseout="mudaFoto('_imagens/fotinha.png')"><a href="spec.html">Especificações</a></li>
+			<li onmouseover="mudaFoto('_imagens/camera.png')" onmouseout="mudaFoto('_imagens/fotinha.png')"><a href="fotos.html">Fotos</a></li>
+			<li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/fotinha.png')"><a href="multimidia.html">Multimídia</a></li>
+			<li onmouseover="mudaFoto('_imagens/telefone.png')" onmouseout="mudaFoto('_imagens/fotinha.png')"><a href="falecomigo.html">Fale comigo</a></li>
+		</ul>
+	</nav>
+	
+</header>
+<section id="corpo">
+
+	
+	<article id="noticia-principal">
+		<header id="cabecalho-artigo">
+		<hgroup>
+				<h1> Muitas bobiças, entre outros;</h1>
+				<h3> por Maria Laura Salvador</h3>
+				<h3 class="direita"> Atualizado em 01/Abril/2019</h3>
+				<h2> Saiba tudo sobre a Maria Laurinha </h2>
+			</hgroup>
+			</header>
+		<p> Nasceu em Joinville e tem 3 gatos, mora no bairro Boa vista e estuda administração na Unisociesc. Vai ser formada pela FGV (foda neh?).Sem contar que ela é linda (vulgo eu), e nada egocêntrica.
+	
+<figure class="foto-legenda">
+	<img src="_css/caderinha.png">
+<figcaption> Um carinha caindo </figcaption>
+</figure>
+	
+	<p>Esse site é totalmente experimental e feito por uma noob em programação, não julgue a si mesma ok sua tansa?</p>
+	
+
+
+	<p>Esse é um novo parágrafo que contém palavras em <b>negrito</b>,com palavras <small>pequenas</small> e <big>grandes</big>,<mark>marcadas </mark> ou não. Podem estar em <em>itálico</em> e <u>underline</u>  também.</p>
+	Posso fazer também com que esse texto seja <del> riscado </del>.
+<table id="tabelaspec">
+	<caption> Tabela técnica do Samsung J5 Pro <span>Abr/2019</span></caption>
+<tr><td class="ce">Tela</td><td class="cd"> 5,2"</td> </tr>
+<tr><td rowspan="2" class="ce">Câmera</td> <td class="cd"> 13Mp traseira</td></tr>
+<tr><td class="cd">5Mp frontal</td></tr>
+<tr><td rowspan="2" class="ce">Conectividade</td> <td class="cd"> Wi-Fi</td></tr>
+<tr><td class="cd">Bluetooth </td></tr>
+<tr><td class="ce">Memória interna</td> <td class="cd"> 32GB </td></tr>
+</table>
+<h2>Sobre o telefone </h2>
+<p>O Samsung Galaxy J5 é um smartphone <b>Android</b> completo, que não tem muito a invejar aos mais avançados dispositivos. Tem uma grande tela <b>Touchscreen</b> de <b> 5 polegadas</b> com uma boa resolução de <b>1280x720 pixel.</b> Quanto às funções, no Samsung Galaxy J5 realmente não falta nada. Começando pela concetividade <b>Wi-Fi e GPS.</b> A transferência de daods e navegação web são fornecidas pela rede <b>UMTS</b>,mas não suporta tecnologias mais recentes, tais como <i>HDSPA</i>. Enfatizamos a memória interna de <b>32GB</b> com possibilidade de expansão.</p>
+
+</article>
+</section>
+
+    <aside id="lateral">
+
+    	<h1> Outras coisíneas </h1>
+    	<h2> Vídeo mais fofíneo </h2>
+    	[AQUI ENTRA UM VÍDEO]
+
+	<h2>Vou levar para Sampa. </h2>
+	
+	<ul>
+		<li>Camisas</li>
+		<li>Calças</li>
+		<li>Toalha</li>
+		<li>Dinheiro</li>
+		<li>Chinelo</li>
+
+	</ul>
+	Agora vou listar em ordem crescente minhas comidas favoritas
+	<ol>
+		<li> Chocolate</li>
+		<li> Café</li>
+		<li> Churrasco </li>
+		<li> Lasanha </li>
+		<li> Mousse de maracujá </li>
+	</ol>
+
+	</aside>
+	<footer id="rodape">
+		<p>Copyright &copy; 2019 - by Maria Laura </br>
+		<a href="http://www.facebook.com/cursoemvideo" target="blank">Facebook </a> / <a href="http://instagram.com/marylaurasalvador" target="blank"> Instagram </a></p>
+	</footer>
+
+</div>
+</body>
+</html>
