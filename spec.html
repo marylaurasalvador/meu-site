@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8"/>
+	<title> Meu site </title>
+	<link rel="stylesheet" type="text/css" href="_css/index.css"/>
+	<link rel="stylesheet" type="text/css" href="_css/spec.css">
+	<style>
+	body {
+			background-image: url(fundo.png);
+			background-color: #40E0D0;
+		}
+		p {
+			text-align: justify;
+			text-indent: 50px;
+		}
+		</style>
+		<link rel="stylesheet" href="_css/index.css"/>
+		<link rel="stylesheet" href="_css/spec.css"/>
+</head>
+<script language="javascript"src="_javascript/funcoes.js">
+</script>
+<body>
+<div id="interface">
+	
+		<header id="cabecalho">
+	<h1 style="text-align: center;"> Este é o meu primeiro site </h1>
+	<h2 style="text-align: "> E este é o subtítulo dele </h2>
+	<figure class="fotinha">
+<center>
+		<img id="icone" src="_imagens/fotinha.png" width="90" height="90">
+	</center>
+		</figure>
+
+	<nav id="menu">
+		<h1> Menu principal</h1>
+		<ul type="disc">
+			<li onmouseover="mudaFoto('_imagens/home.jpg')" onmouseout="mudaFoto('_imagens/especifica.png')"><a href="index.html">Home</a></li>
+			<li onmouseover="mudaFoto('_imagens/especifica.png')" onmouseout="mudaFoto('_imagens/especifica.png')"><a href="spec.html.html">Especificações</a></li>
+			<li onmouseover="mudaFoto('_imagens/camera.png')" onmouseout="mudaFoto('_imagens/especifica.png')"><a href="fotos.html">Fotos</a></li>
+			<li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/especifica.png')"><a href="multimidia.html">Multimídia</a></li>
+			<li onmouseover="mudaFoto('_imagens/telefone.png')" onmouseout="mudaFoto('_imagens/especifica.png')"><a href="falecomigo.html">Fale comigo</a></li>
+		</ul>
+	</nav>
+	
+</header>
+<section id="corpo-full">
+	<article id="noticia-principal">
+		<header id="cabecalho-artigo">
+		<hgroup>
+				<h2> Samsung J5 > Especificações</h2>
+				<h1> As belezas do J5 Pro </h1>
+				<h3> por Maria Laura Salvador</h3>
+				<h3 class="direita"> Atualizado em 04/Abril/2019</h3>
+			</hgroup>
+			</header>
+
+            <p>Clique na áre que você deseja conhecer, cada parte te leva para conhecer mais informações sobre os recursos deste celular.</p>
+
+            <section id="conteudo">
+            	<img src="_imagens/esquemaj5.jpg" usemap="#meumapa">
+            	<map name="meumapa">
+            		<area shape="rect" coords="12,46,175,355" href="j5pro.html#tela" target="janela" />
+            		<area shape="circle" coords="62,18,13" href="j5pro.html#camera" target="janela"/>
+            		<area shape="rect" coords="188,112,198,150" href="j5pro.html#sistop" target="janela"/>
+            		<area shape="poly" coords="11,361,31,393,164,393,190,361" href="j5pro.html#gadgets" target="janela"/>
+            	</map>
+            	<iframe src="j5pro.html" name="janela" id="frame-spec"></iframe>
+            </section>
+    </article>
+</section>
+
+<footer id="rodape">
+		<p>Copyright &copy; 2019 - by Maria Laura </br>
+		<a href="http://www.facebook.com/cursoemvideo" target="blank">Facebook </a> / <a href="http://instagram.com/marylaurasalvador" target="blank"> Instagram </a></p>
+	</footer>
+
+</div>
+</body>
+</html>
